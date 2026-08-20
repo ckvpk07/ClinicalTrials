@@ -29,5 +29,7 @@ Thumbs.db
 # Credentials / keys
 keys/
 
-#
+# Python API local files
 Python API/config copy.json
+Python API/extract_clinical_trials copy.py
+Python API/extract_clinical_trials_fullload.py
