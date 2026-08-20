@@ -1,0 +1,16 @@
+{
+  "api_configuration": {
+    "target_url": "https://clinicaltrials.gov/api/v2/studies",
+    "page_size": 1000,
+    "default_cutoff_date": "2015-01-01"
+  },
+  "warehouse_configuration": {
+    "target_table": "RAW_CTGOV_STUDIES",
+    "fact_table": "STAGING.FCT_STUDY_INTERVENTIONS",
+    "batch_chunk_size": 1000
+  },
+  "logging_configuration": {
+    "local_log_directory": "D:\\ClinicalTrials\\Logs",
+    "log_file_prefix": "ingestion"
+  }
+}

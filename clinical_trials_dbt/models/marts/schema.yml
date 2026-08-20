@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: sponsor_trial_summary
+    description: >
+      Trial summary aggregated by sponsor class, including total trials,
+      early-stopped trials, closed trials, and the proportion of
+      closed trials that ended early.
+
+    columns:
+      - name: SPONSOR_CLASS
+        description: Sponsor classification of the clinical trial.
+
+      - name: TOTAL_TRIALS
+        description: Total number of clinical trials for the sponsor class.
+
+      - name: EARLY_STOPPED_TRIALS
+        description: >
+          Number of trials with an overall status of TERMINATED,
+          WITHDRAWN, or SUSPENDED.
+
+      - name: CLOSED_TRIALS
+        description: >
+          Number of trials with an overall status of COMPLETED,
+          TERMINATED, WITHDRAWN, or SUSPENDED.
+
+      - name: EARLY_STOP_RATE
+        description: >
+          Proportion of closed trials that ended early.
+          Calculated as EARLY_STOPPED_TRIALS divided by CLOSED_TRIALS.

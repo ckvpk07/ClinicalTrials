@@ -1,0 +1,30 @@
+# Python virtual environment
+hat.env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials / keys
+keys/

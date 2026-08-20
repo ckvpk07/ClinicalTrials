@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: clinical_trials
+    database: CLINICAL_TRIALS
+    schema: RAW
+
+    tables:
+      - name: RAW_CTGOV_STUDIES
+        description: >
+          Raw ClinicalTrials.gov study records ingested from the
+          ClinicalTrials.gov API.
