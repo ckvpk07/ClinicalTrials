@@ -258,7 +258,6 @@ Private key files must never be included in the project repository.
     |   +-- dbt_project.yml
     |   +-- models/
     |       +-- staging/
-    |       +-- intermediate/
     |       +-- marts/
     |
     +-- scripts/
