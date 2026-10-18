@@ -13,7 +13,6 @@ WITH source_staging_view AS (
         COMPLETION_DATE,
         ENROLLMENT,
         ENROLLMENT_TYPE,
-        INTERVENTIONS, 
         PHASES, -- Raw array column from step 1
         STUDY_LAST_UPDATE_DATE,
         LAST_UPDATE_POST_DATE,
